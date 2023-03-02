@@ -38,6 +38,62 @@ console.log(arr[0]) */
 
 /* let answer = confirm("is it OK?"); */
 
-let answer = prompt("Есть ли вам 18?", "Да");
+// УСЛОВИЯ УСЛОВИЯ УСЛОВИЯ УСЛОВИЯ//
 
-console.log(answer);
+/* Синтаксис условия if/else if/ else */
+/* let num = 50; */
+
+/* if (num < 49) {
+    console.log("Неверно!")
+} else if (num > 100) {
+    console.log ("Много!")
+} else {
+    console.log ("Верно!")
+};
+
+(num == 50) ? console.log ("Верно!") : console.log ("Неверно!"); - Вариант записи условия типа if/else */
+
+/* Вариант записи условия через switch */
+/* num = 43;
+switch (num) {
+    case num < 49:
+        console.log("Неверно!");
+        break;
+    case num > 100:
+        console.log ("Много!");
+        break;
+    case num > 80:
+        console.log ("Все еще много!");
+        break;
+    case 50:
+        console.log ("Верно!");
+        break;
+    default:
+        console.log ("Что-то пошло не так!");
+        break;
+} */
+
+// Циклы Циклы Циклы//
+
+/* Простой цикл */
+/*let num = 50;
+while (num < 55) {
+    console.log(num);
+    num++;
+} */
+
+/* Цикл - действия, потом проверка (проверка задает вопрос "Можно ли продолжать выполнять цикл?") */
+/* let num = 50;
+do {
+    console.log(num);
+    num++;
+}
+while (num < 55); */
+
+/* for (let i  (сокращенно от index)  = 1; i < 8; i++) {  - что, условие, действие 
+    if (i == 6) {
+         break - остановить цикл 
+         continue - продолжить цикл, как дойдет до условия if 
+    }
+    console.log(i)
+} */
